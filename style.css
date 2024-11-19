@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #21152E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 10px 7%;
+}
+header h1{
+    letter-spacing: 1.5px;
+
+}
+header ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+header ul li a{
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    padding: 10px 7%;
+}
+
+.banner .banner_text{
+    width: 40%;
+    height: 100%;
+    margin-top: 70px;
+}
+.banner .banner_text h3{
+    font-size: 70px;
+}
+.banner .banner_text p{
+    margin-top: 50px;
+    font-size: 40px;
+    color: rgb(84, 84, 84);
+}
+
+.banner .banner_img{
+    position: relative;
+}
+.banner .banner_img .image1{
+    width: 220px;
+    height: 540px;
+    position: relative;
+    border-radius: 10px;
+    left: 1800px;
+    bottom: 200px;
+    border: 5px solid #c5aded;
+}
+.banner .banner_img .image1 img{
+    width: 200px;
+    height: 290px;
+    position: relative;
+    right: 100px;
+    bottom: -200px;
+    border-radius: 10px;
+}
+.banner .banner_img .image2 img{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    top: -870px;
+    left: 1700px;
+    border-radius: 10px;
+
+
+}
+.banner .banner_img .image3{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    border-radius: 10px;
+    left: 1420px;
+    bottom:1270px;
+    border: 5px solid #6939b7;
+}
+.banner .banner_img .image4{
+    width: 350px;
+    height: 150px;
+    position: relative;
+    border-radius: 10px;
+    left: 1370px;
+    bottom:1000px;
+    border: 5px solid #6939b7;
+}
+.banner .banner_img .image6 img{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    border-radius: 10px;
+    bottom:1500px;
+    left: 1370px;
+}
+.banner .banner_img .image7 img{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    border-radius: 10px;
+    bottom:1480px;
+    left: 1440px;
+}
+.banner .banner_img .image8 img{
+    width: 110px;
+    height: 80px;
+    position: relative;
+    border-radius: 10px;
+    bottom:1460px;
+    left: 1560px;
+}
+.banner .banner_text button{
+    width: 350px;
+    height: 50px;
+    position: relative;
+    border-radius: 10px;
+    letter-spacing: 1.2;
+    top: 40px;
+    background-color: #6939b7;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    box-shadow: 3px 3px 1px 2px black;
+}
